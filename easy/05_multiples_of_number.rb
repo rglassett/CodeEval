@@ -1,8 +1,9 @@
 def higher_multiple(x, n)
-  while n < x
-    n += n
+  total = n
+  while total < x
+    total += n
   end
-  n
+  total
 end
 
 if __FILE__ == $PROGRAM_NAME
